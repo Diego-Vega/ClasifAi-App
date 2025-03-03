@@ -26,7 +26,7 @@ body {
             rgb(255, 255, 255, 0.6),
             rgba(243, 243, 243, 0.8)
         ),
-        url("@/app/assets/images/bannerBot-recoleccion.jpg");
+        url("assets/images/bannerBot-recoleccion.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
