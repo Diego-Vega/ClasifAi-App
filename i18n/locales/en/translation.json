@@ -1,0 +1,117 @@
+{
+    "hero": {
+        "title": "Intelligent Waste Collection",
+        "subtitle": "Revolutionizing urban waste management in the Cali River and Boulevard area with smart technology for a cleaner and more sustainable future.",
+        "cta": "Learn More"
+    },
+    "problem": {
+        "title": "The Problem",
+        "subtitle": "Improper Waste Management",
+        "description": "Urban areas face significant challenges with waste management, including:",
+        "challenges": {
+            "1": "Overflowing bins causing environmental hazards",
+            "2": "Inefficient collection routes wasting resources",
+            "3": "Poor waste segregation leading to contamination",
+            "4": "Lack of real-time monitoring systems"
+        }
+    },
+    "solutions": {
+        "title": "Possible Solutions",
+        "description": "We have explored multiple approaches to address the problem of waste accumulation on Boulevard del Río and pollution of the Cali River. Below are the most promising solutions:",
+        "items": {
+            "1": {
+                "title": "SEABIN - Floating waste collector",
+                "description": "The SEABIN is a collection system designed to remove solid waste and floating fats from bodies of water."
+            },
+            "2": {
+                "title": "Transformation of plastics into energy",
+                "description": "This method converts non-biodegradable plastic waste into formic acid, a chemical compound with applications in the generation of electricity for thermal plants and automobiles."
+            },
+            "3": {
+                "title": "Smart waste bins with sensors",
+                "description": "Smart waste bins optimise urban waste management through fill level sensors and automatic compaction."
+            }
+        }
+    },
+    "chosenSolution": {
+        "title": "Our Solution",
+        "subtitle": "Smart Trash Bins with Automatic Classification",
+        "description": "After extensive research and testing, we've developed an intelligent waste collection system centered around smart bins that automatically classify and compact waste.",
+        "benefits": {
+            "1": "Automatic waste classification using AI and sensors",
+            "2": "Real-time fill level monitoring and alerts",
+            "3": "Solar-powered compaction to increase capacity",
+            "4": "Cloud-based management and analytics dashboard",
+            "5": "Reduced collection frequency and operational costs"
+        }
+    },
+    "map": {
+        "title": "Collection Points",
+        "description": "Our smart bins are strategically placed throughout the city for maximum efficiency. Explore the map to find the nearest collection point.",
+        "loading": "Loading map...",
+        "smartBin": "Smart Bin Location",
+        "selectBin": "Select a Bin:"
+    },
+    "team": {
+        "title": "Development Team",
+        "description": "Meet the talented individuals behind our intelligent waste collection initiative.",
+        "roles": {
+            "projectLead": "Project Lead",
+            "hardwareEngineer": "Hardware Engineer",
+            "softwareDeveloper": "Software Developer",
+            "dataScientist": "Data Scientist",
+            "computerEngineer1": "Computer Engineer",
+            "computerEngineer2": "Computer Engineer"
+        }
+    },
+    "prototypeGallery": {
+        "title": "Raising awareness",
+        "description": "Sensor-equipped waste bins facilitate the automatic separation of waste, promoting responsible habits in the community. By making recycling more accessible, they foster greater environmental awareness and reduce pollution in these urban spaces.",
+        "items": {
+            "1": {
+                "title": "United for a Clean Boulevard",
+                "description": "Volunteers and citizens gather to collect waste and keep the Boulevard del Río a clean and pleasant space for everyone."
+            },
+            "2": {
+                "title": "Rescuing the Beauty of the Boulevard",
+                "description": "With bags and gloves in hand, residents and tourists work together to remove waste and preserve the iconic image of the Boulevard del Río."
+            },
+            "3": {
+                "title": "Small Actions, Big Impact",
+                "description": "Families and friends participate in an ecological initiative by collecting waste and promoting recycling in one of the most emblematic places in Cali."
+            },
+            "4": {
+                "title": "Cali is greener and more sustainable",
+                "description": "A committed community shows that with effort and environmental awareness it is possible to transform the Boulevard del Río into an example of sustainability."
+            },
+            "5": {
+                "title": "Guardians of the Environment in Cali",
+                "description": "A group of young people committed to the planet organize clean-up days to reduce pollution in the heart of the city."
+            }
+        }
+    },
+    "contact": {
+        "title": "Join Our Initiative",
+        "description": "Help us create a cleaner, more sustainable future. Whether you're a municipality, business, or concerned citizen, we'd love to hear from you.",
+        "contactInfo": {
+            "email": "Email",
+            "phone": "Phone",
+            "address": "Address"
+        },
+        "form": {
+            "title": "Get in Touch",
+            "name": "Name",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Message",
+            "submit": "Send Message"
+        },
+        "cta": "Join the Movement",
+        "backToTop": "Back to top"
+    },
+    "navigation": {
+        "next": "Next",
+        "previous": "Previous"
+    }
+}
+

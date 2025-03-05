@@ -1,0 +1,117 @@
+{
+    "hero": {
+        "title": "Recolección Inteligente de Residuos",
+        "subtitle": "Revolucionando la gestión de residuos urbanos en la zona del Río y Bulevar Cali con tecnología inteligente para un futuro más limpio y sostenible.",
+        "cta": "Saber Más"
+    },
+    "problem": {
+        "title": "El Problema",
+        "subtitle": "Gestión Inadecuada de Residuos",
+        "description": "Las áreas urbanas enfrentan desafíos significativos con la gestión de residuos, incluyendo:",
+        "challenges": {
+            "1": "Contenedores desbordados que causan riesgos ambientales",
+            "2": "Rutas de recolección ineficientes que desperdician recursos",
+            "3": "Mala segregación de residuos que lleva a la contaminación",
+            "4": "Falta de sistemas de monitoreo en tiempo real"
+        }
+    },
+    "solutions": {
+        "title": "Posibles Soluciones",
+        "description": "Hemos explorado múltiples enfoques para abordar el problema de la acumulación de residuos en el Boulevard del Río y la contaminación del río Cali. A continuación, se presentan las soluciones más prometedoras:",
+        "items": {
+            "1": {
+                "title": "SEABIN - Recolectora de Residuos Flotantes",
+                "description": "Es un sistema de recolección diseñado para eliminar desechos sólidos y grasas flotantes de cuerpos de agua."
+            },
+            "2": {
+                "title": "Transformación de Plásticos en Energía",
+                "description": "Este método convierte residuos plásticos no biodegradables en ácido fórmico, un compuesto químico con aplicaciones en la generación de electricidad para plantas térmicas y automóviles."
+            },
+            "3": {
+                "title": "Papeleras Inteligentes con Sensores",
+                "description": "Las papeleras inteligentes optimizan la gestión de residuos urbanos mediante sensores de nivel de llenado y compactación automática."
+            }
+        }
+    },
+    "chosenSolution": {
+        "title": "Nuestra Solución",
+        "subtitle": "Papeleras Inteligentes con Clasificación Automática",
+        "description": "Después de una extensa investigación y pruebas, hemos desarrollado un sistema inteligente de recolección de residuos centrado en contenedores inteligentes que clasifican y compactan automáticamente los residuos.",
+        "benefits": {
+            "1": "Clasificación automática de residuos utilizando IA y sensores",
+            "2": "Monitoreo de nivel de llenado en tiempo real y alertas",
+            "3": "Compactación alimentada por energía solar para aumentar la capacidad",
+            "4": "Panel de gestión y análisis basado en la nube",
+            "5": "Reducción de la frecuencia de recolección y costos operativos"
+        }
+    },
+    "map": {
+        "title": "Puntos de Recolección",
+        "description": "Nuestros contenedores inteligentes están estratégicamente ubicados en toda la ciudad para máxima eficiencia. Explora el mapa para encontrar el punto de recolección más cercano.",
+        "loading": "Cargando mapa...",
+        "smartBin": "Ubicación de Contenedor Inteligente",
+        "selectBin": "Selecciona un Contenedor:"
+    },
+    "team": {
+        "title": "Equipo de Desarrollo",
+        "description": "Conoce a las personas talentosas detrás de nuestra iniciativa de recolección inteligente de residuos.",
+        "roles": {
+            "projectLead": "Líder del Proyecto",
+            "hardwareEngineer": "Ingeniero de Hardware",
+            "softwareDeveloper": "Desarrollador de Software",
+            "dataScientist": "Científico de Datos",
+            "computerEngineer1": "Ingeniera Informática",
+            "computerEngineer2": "Ingeniero Informático"
+        }
+    },
+    "prototypeGallery": {
+        "title": "Haciendo conciencia",
+        "description": "Las papeleras con sensores facilitan la separación de residuos de forma automática, promoviendo hábitos responsables en la comunidad. Al hacer más accesible el reciclaje, fomentan una mayor conciencia ambiental y reducen la contaminación en estos espacios urbanos.",
+        "items": {
+            "1": {
+                "title": "Unidos por un Boulevard Limpio",
+                "description": "Voluntarios y ciudadanos se reúnen para recoger residuos y mantener el Boulevard del Río como un espacio limpio y agradable para todos."
+            },
+            "2": {
+                "title": "Rescatando la Belleza del Boulevard",
+                "description": "Con bolsas y guantes en mano, habitantes y turistas trabajan juntos para eliminar desechos y preservar la imagen icónica del Boulevard del Río."
+            },
+            "3": {
+                "title": "Pequeñas Acciones, Gran Impacto",
+                "description": "Familias y amigos participan en una iniciativa ecológica recogiendo residuos y promoviendo el reciclaje en uno de los lugares más emblemáticos de Cali."
+            },
+            "4": {
+                "title": "Cali Más Verde y Sostenible",
+                "description": "Una comunidad comprometida demuestra que con esfuerzo y conciencia ambiental es posible transformar el Boulevard del Río en un ejemplo de sostenibilidad."
+            },
+            "5": {
+                "title": "Guardianes del Medio Ambiente en Cali",
+                "description": "Un grupo de jóvenes comprometidos con el planeta organiza jornadas de limpieza para reducir la contaminación en el corazón de la ciudad."
+            }
+        }
+    },
+    "contact": {
+        "title": "Únete a Nuestra Iniciativa",
+        "description": "Ayúdanos a crear un futuro más limpio y sostenible. Ya sea que representes a un municipio, empresa o seas un ciudadano preocupado, nos encantaría saber de ti.",
+        "contactInfo": {
+            "email": "Correo Electrónico",
+            "phone": "Teléfono",
+            "address": "Dirección"
+        },
+        "form": {
+            "title": "Ponte en Contacto",
+            "name": "Nombre",
+            "email": "Correo Electrónico",
+            "subject": "Asunto",
+            "message": "Mensaje",
+            "submit": "Enviar Mensaje"
+        },
+        "cta": "Únete al Movimiento",
+        "backToTop": "Volver arriba"
+    },
+    "navigation": {
+        "next": "Siguiente",
+        "previous": "Anterior"
+    }
+}
+
