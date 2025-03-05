@@ -1,4 +1,3 @@
-import LanguageSwitcher from "@/components/language-switcher";
 import I18nProvider from "@/i18n/i18n-provider";
 import { ReactLenis } from "@/utils/lenis";
 import type { Metadata } from "next";
@@ -22,10 +21,7 @@ export default function RootLayout({
         <html lang="en" className="scroll-smooth">
             <ReactLenis root>
                 <body className={inter.className}>
-                    <I18nProvider>
-                        <LanguageSwitcher />
-                        {children}
-                    </I18nProvider>
+                    <I18nProvider>{children}</I18nProvider>
                 </body>
             </ReactLenis>
         </html>

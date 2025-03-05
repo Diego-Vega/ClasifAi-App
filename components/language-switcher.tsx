@@ -8,26 +8,32 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Globe } from "lucide-react";
-import { useEffect, useState } from "react";
 import { useTranslation } from "next-i18next";
+import { useEffect, useState } from "react";
 
 export default function LanguageSwitcher() {
-    const { i18n } = useTranslation();
     const [mounted, setMounted] = useState(false);
+    let i18n: any; // Evita errores en el servidor
 
-    // Ensure component is mounted before rendering to avoid hydration issues
+    try {
+        // Intentamos obtener la instancia de i18n
+        i18n = useTranslation().i18n;
+    } catch (error) {
+        console.error("Error en useTranslation:", error);
+    }
+
     useEffect(() => {
         setMounted(true);
     }, []);
 
     const changeLanguage = (lng: string) => {
-        i18n.changeLanguage(lng);
-        // Store the language preference in localStorage
-        localStorage.setItem("i18nextLng", lng);
-        // No need to refresh with client-side i18next
+        if (i18n) {
+            i18n.changeLanguage(lng);
+            localStorage.setItem("i18nextLng", lng);
+        }
     };
 
-    if (!mounted) return null;
+    if (!mounted || !i18n) return null; // Evita renderizar en el servidor sin datos
 
     return (
         <div className="fixed top-4 right-5 z-50">
@@ -45,18 +51,18 @@ export default function LanguageSwitcher() {
                 <DropdownMenuContent className="bg-white" align="end">
                     <DropdownMenuItem onClick={() => changeLanguage("en")}>
                         <span
-                            className={`${
+                            className={
                                 i18n.language === "en" ? "font-bold" : ""
-                            }`}
+                            }
                         >
                             English
                         </span>
                     </DropdownMenuItem>
                     <DropdownMenuItem onClick={() => changeLanguage("es")}>
                         <span
-                            className={`${
+                            className={
                                 i18n.language === "es" ? "font-bold" : ""
-                            }`}
+                            }
                         >
                             Español
                         </span>

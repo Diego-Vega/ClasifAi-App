@@ -8,7 +8,7 @@ import {
     Map,
 } from "@vis.gl/react-google-maps";
 import { collection, getDocs } from "firebase/firestore";
-import { MapPin, Recycle, Trash2 } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 

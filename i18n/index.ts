@@ -19,7 +19,7 @@ i18n.use(LanguageDetector)
                 translation: esTranslation,
             },
         },
-        fallbackLng: "en",
+        fallbackLng: "es",
         detection: {
             order: ["localStorage", "navigator"],
             caches: ["localStorage"],
